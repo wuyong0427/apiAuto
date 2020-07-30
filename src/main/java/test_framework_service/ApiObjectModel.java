@@ -33,5 +33,4 @@ public class ApiObjectModel {
     public void run(ApiObjectMethodModel method) {
         method.run();
     }
-
 }
