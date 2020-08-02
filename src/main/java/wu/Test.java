@@ -11,18 +11,7 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        StringBuffer stringBuffer = new StringBuffer();
-        HashMap<String,String> hashMap = new HashMap<>();
-        Hashtable<String,String> hashtable = new Hashtable<>();
-        Object o = new Object();
 
-
-        List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
-        Collections.sort(names, (String a, String b) -> {
-            return b.compareTo(a);
-        });
-        System.out.println(names.toString());
-
-        System.loadLibrary("");
+        System.out.println((int)(Math.random()*1+4));
     }
 }
